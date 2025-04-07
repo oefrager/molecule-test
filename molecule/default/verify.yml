@@ -24,4 +24,3 @@
     - name: Assert Vector validate config
       assert:
         that: "'{{ vector_validate.rc }}' == '0'"
-  
